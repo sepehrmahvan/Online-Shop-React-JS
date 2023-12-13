@@ -1,0 +1,64 @@
+@font-face {
+  font-family: vazir;
+  src: url(fonts/Vazir-Regular.woff);
+}
+$main-color: rgb(248, 219, 1);
+
+
+div.questions{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 35px;
+    box-sizing: border-box;
+    div.questions-container{
+        width: 48%;
+        padding: 25px;
+        box-sizing: border-box;
+        h2{
+            font-family: vazir;
+            color: gray;
+            font-weight: 900;
+            font-size: 2vw;
+        }
+        a.more-questions{
+            display: block;
+            text-align: center;
+            width: 100%;
+            text-decoration: none;
+            margin: 25px;
+            font-family: vazir;
+            font-size: 1.3vw;
+            color: goldenrod;
+            transition: 250ms;
+        }
+        a.more-questions:hover{
+            color: black;
+        }
+        .MuiPaper-root{
+            background-color: white !important;
+            border-radius: 10px;
+            margin: 10px;
+            color: gray;
+            padding: 5px;
+            box-shadow: 4px 4px 10px gray;
+            border: 1px solid lightgray;
+            p{
+                font-family: vazir;
+                font-weight: 600;
+                font-size: 1.3vw;
+
+            }
+        }
+    }
+    div.questions-img{
+        width: 48%;
+        text-align: center;
+        img{
+            width: 70%;
+            transform: rotate(20deg);
+        }
+    }
+}

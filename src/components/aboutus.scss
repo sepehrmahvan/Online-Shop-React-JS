@@ -1,0 +1,41 @@
+@font-face {
+  font-family: vazir;
+  src: url(fonts/Vazir-Regular.woff);
+}
+$main-color: rgb(248, 219, 1);
+
+div.about-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  div.about-us-description {
+    width: 48%;
+    text-align: right;
+    padding: 30px;
+    box-sizing: border-box;
+    h2 {
+      font-family: vazir;
+      color: gray;
+      font-weight: 900;
+      font-size: 2vw;
+    }
+    p{
+        text-align: justify;
+        font-size: 1.5vw;
+        font-family: vazir;
+        color: gray;
+    }
+  }
+  div.about-us-logo{
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 500px;
+        height: 500px;
+        filter: drop-shadow(-40px -40px 0 gray);
+    }
+  }
+}

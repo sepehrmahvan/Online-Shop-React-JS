@@ -1,0 +1,107 @@
+@font-face {
+    font-family: vazir;
+    src: url(fonts/Vazir-Regular.woff);
+  }
+  $main-color: rgb(248, 219, 1);
+
+  div.footer {
+    background-color: black;
+    border-top: 4px solid $main-color;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    div.site-map {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: flex-start;
+      h3 {
+        color: white;
+        font-family: vazir;
+        font-weight: 100;
+        padding: 5px 20px;
+        font-size: 1.5vw;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+        font-size: 1vw;
+        font-family: vazir;
+        padding: 5px 20px;
+        transition: 500ms;
+      }
+      a:hover {
+        transform: scale(1.1);
+      }
+    }
+    div.contact-ways {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: flex-start;
+      h3 {
+        color: white;
+        font-family: vazir;
+        font-weight: 100;
+        padding: 5px 20px;
+        font-size: 1.5vw;
+      }
+      div.contact-ways-card {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        svg {
+          color: white;
+        }
+        p {
+          font-size: 1vw;
+          font-family: vazir;
+          color: white;
+          padding: 5px 20px;
+          margin: 0;
+          transition: 500ms;
+          a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2vw;
+          }
+        }
+        p:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+    div.address {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: flex-start;
+      h3 {
+        color: white;
+        font-family: vazir;
+        font-weight: 100;
+        padding: 5px 20px;
+        font-size: 1.5vw;
+      }
+      div.address-paragraph {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+        svg {
+          color: white;
+        }
+        p{
+          font-size: 1vw;
+          font-family: vazir;
+          color: white;
+          padding: 5px 20px;
+          margin: 0;
+          transition: 500ms;
+        }
+        p:hover{
+          transform: scale(1.07);
+        }
+      }
+    }
+  }

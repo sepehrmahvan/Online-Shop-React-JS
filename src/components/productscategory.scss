@@ -1,0 +1,54 @@
+@font-face {
+    font-family: vazir;
+    src: url(fonts/Vazir-Regular.woff);
+  }
+  $main-color: rgb(248, 219, 1);
+
+  div.products-category{
+    padding: 30px 30px 50px 30px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: white;
+    div.product-category{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        a{
+            position: relative;
+            width: 130px;
+            height: 130px;
+            text-decoration: none;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-top: 20px;
+            box-shadow: 7px 7px 10px gray;
+            border: 4px solid $main-color;
+            transition: 500ms;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+            div.title{
+                position: absolute;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: rgba(0, 0, 0, 60%);
+                h2{
+                    color: white;
+                    font-size: 1.5vw;
+                    font-weight: 900;
+                    color: white;
+                    font-family: vazir;
+                }
+            }
+        }
+        a:hover{
+            transform: scale(1.1);
+        }
+    }
+  }
